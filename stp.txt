@@ -1,0 +1,20 @@
+(1)ルートブリッジ：3
+
+(2)RP
+Switch1 F0/2
+Switch2 F0/1
+Switch4 E0/2
+
+ルートブリッジに一番近いため
+
+・DP
+Switch3 E0/1
+Switch3 E0/2
+Switch1 F0/1
+Switch4 F0/1
+ルートブリッジのポートであるため
+RP以外でルートパスコストが低いものだから
+
+・BP
+Switch2 F0/2
+RP・DPに指定されていないから
